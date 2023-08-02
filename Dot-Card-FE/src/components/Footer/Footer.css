@@ -1,0 +1,43 @@
+.footer-container {
+    width: 1440px;
+    height: 72px;
+    flex-shrink: 0;
+    background: var(--black, #201B21);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: inline-flex;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: space-between;
+    width: 1127px;
+    margin: auto;
+}
+
+.social-links {
+    align-items: center;
+    display: inline-flex;
+    gap: 16px;
+}
+
+.social-icons {
+    height: 24px;
+    width: 24px;
+}
+
+.dot-cards-text {
+    color: #D9DBE1;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    opacity: 0.7;
+}
+
+.logo {
+    height: 24px;
+    width: 100px;
+}
