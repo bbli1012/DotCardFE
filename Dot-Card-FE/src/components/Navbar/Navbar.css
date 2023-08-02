@@ -1,0 +1,30 @@
+.container {
+    height: 64px;
+    width: 1440px;
+    border-bottom: 2px solid #E9EBEE;
+    background: var(--white, #FFF);
+}
+
+.navbar {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    width: 1127px;
+}
+
+.cart-btn {
+    display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid #201B21;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--black, #201B21);
+}
